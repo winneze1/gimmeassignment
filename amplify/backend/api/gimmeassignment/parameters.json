@@ -1,0 +1,6 @@
+{
+  "AppSyncApiName": "gimmeassignment",
+  "DynamoDBBillingMode": "PAY_PER_REQUEST",
+  "DynamoDBEnableServerSideEncryption": false,
+  "AuthModeLastUpdated": "2022-08-06T18:08:25.477Z"
+}
