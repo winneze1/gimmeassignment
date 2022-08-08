@@ -1,9 +1,9 @@
 import 'package:gnassignment/data/cubits/auth_cubit/auth_cubit.dart';
 import 'package:gnassignment/data/cubits/auth_cubit/auth_state.dart';
-import 'package:gnassignment/ui/auth/auth_view.dart';
 import 'package:gnassignment/ui/common/loading_view.dart';
 import 'package:gnassignment/data/cubits/todo_cubit/todo_cubit.dart';
-import 'package:gnassignment/ui/todos/todos_view.dart';
+import 'package:gnassignment/ui/pages/auth/auth_view.dart';
+import 'package:gnassignment/ui/pages/todos/todos_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 

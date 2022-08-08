@@ -1,14 +1,13 @@
-import 'package:gnassignment/data/cubits/auth_cubit/auth_cubit.dart';
 import 'package:gnassignment/data/cubits/todo_cubit/todo_state.dart';
+import 'package:gnassignment/models/ModelProvider.dart';
 import 'package:gnassignment/ui/common/exception_view.dart';
 import 'package:gnassignment/ui/common/loading_view.dart';
 import 'package:gnassignment/data/cubits/todo_cubit/todo_cubit.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:gnassignment/ui/todos/widgets/todo_appbar.dart';
+import 'package:gnassignment/ui/pages/todos/widgets/todo_appbar.dart';
 import 'package:gnassignment/ui/util/constants.dart';
 
-import '../../models/Todo.dart';
 
 class TodosView extends StatefulWidget {
   const TodosView({Key? key}) : super(key: key);
